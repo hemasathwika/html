@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+}
+div{
+    border:5px solid rgb(193, 18, 135) ;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+p1{
+    font-size: 40px;
+}
+h1{
+    border: 400px slateblue;
+    background-image: url("col.jpg");
+    font-size: 40px;
+    color: rgb(230, 238, 245);
+}
+
+a:hover{
+    background-color: lightgreen;
+    font-size: 30px;
+}

@@ -7,7 +7,7 @@ const readline = require('readline').createInterface({
   let num;
   
   readline.question("Enter a number (enter 0 to stop): ", (input) => {
-    num = parseInt(input);
+    num = parseInt(input)});
     while (num !== 0 && !isNaN(num)) {
       arr.push(num);
       readline.question("Enter a number (enter 0 to stop): ", (input) => {
