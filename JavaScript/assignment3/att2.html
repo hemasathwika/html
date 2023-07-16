@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-element">
+        <p class="my-class" data-id="123">this is sample code of hasAttribute</p>
+      </div>
+      <script>
+        const element = document.getElementById('my-element');
+const childElement = element.querySelector('p');
+
+if (childElement.hasAttribute('data-id')) {
+  console.log('The "data-id" attribute is present on the child element.');
+} else {
+  console.log('The "data-id" attribute is not present on the child element.');
+}
+      </script>
+</body>
+</html>
