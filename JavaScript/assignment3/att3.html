@@ -6,17 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="my-element">
-        <p class="my-class" data-id="123">getAttribute example!</p>
-      </div>
+  <h1>JavaScript Dates</h1>
+  <h2>The getFullYear() Method</h2>
+  <p>Return the full year of a date object:</p>
+  
+  <p id="demo"></p>
     <script>
-        const element = document.getElementById('my-element');
-const childElement = element.querySelector('p');
-const attributes = childElement.attributes;
-
-for (let i = 0; i < attributes.length; i++) {
-  console.log(attributes[i].name + ': ' + attributes[i].value);
-}
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
     </script>
 </body>
 </html>
