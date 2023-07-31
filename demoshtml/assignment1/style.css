@@ -1,8 +1,8 @@
-h2{
+h1{
     text-align: center;
 }
 div{
-    border:5px solid rgb(193, 18, 135) ;
+    border:10px solid rgb(18, 56, 193) ;
     background-color: aquamarine;
     font-size: 40px;
 }

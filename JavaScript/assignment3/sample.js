@@ -7,3 +7,4 @@ console.log('end')
     console.log(i)
 }*/
 //asynchronus action= actions which are initiated, they finish the task later
+
