@@ -71,3 +71,7 @@ form button.active{
     background: #f0f0f0;
     font-size: 25px;
 }
+.input_box input::-webkit-inner-spin-button,
+.input_box input::-webkit-outer-spin-button{
+     display: none;
+}
