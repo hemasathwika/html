@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;/* total page ki bg color vasthundhi*/
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+canvas{
+    border: 2px saddlebrown;
+}
+.toolbox{/* ante ee box lopala manam draw chesthaam*/
+    background-color: rgb(238, 210, 173);
+    border: 1px solid silver;
+    display: flex;
+    width:800px;
+    padding: 1rem;/* top bottom left and ryt lo space vasthundhi*/
+}
+.toolbox > *{
+    background-color: aqua;
+    border: none; /* ante unna border vellipothundhi*/
+    display :inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+.toolbox > *:last-child{
+    margin-left: auto;/*last child ante last lo unna element ante indhulo X into mark laaga*/
+
+}
