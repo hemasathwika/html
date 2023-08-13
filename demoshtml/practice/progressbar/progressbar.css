@@ -22,9 +22,9 @@ div{ /*ee div container tharvatha rasthe baaga artham avthundhi learners ki*/
 }
 @keyframes loading{
     0%{
-        width: 20%;
+        width: 20%;/* 20% daggara nunchi loading start avthundhi akkada 0% pedithe starting nunchi load avthundhi*/
     }
     100%{
-        width: 100%;
+        width: 100%;/*entha varaku load avvali ani ikkada ivvali*/
     }
 }
