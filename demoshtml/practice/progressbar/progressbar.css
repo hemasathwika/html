@@ -1,0 +1,30 @@
+/*style div ki first isthe manaki output lo oka lyn laga kakunda height and width isthe oka box vasthundhi*/
+/*so ippudu nen possible ways raskunta so naaku future lo artham avthundhi*/
+/*container ki mundhu div rayachu ayyaka kuda div ki styles raskovachu*/
+div{ /*ee div container tharvatha rasthe baaga artham avthundhi learners ki*/
+    height: 25px;/*box yokka height*/
+    border-radius: 26px; /*box corners lo manaki curve raanii idhi use cheyaali*/
+}
+.container{
+    border:3px solid#9985FB;/*first border isthe manaki output lo some box vasthundhi dhanni manam style cheskovali*/
+    width: 400px;
+    margin: auto;/*ante side lo nunchi mana container ki gap anamaata lyk left margin of the page laaga work chesthundhi*/
+    margin-top: 100px;/*top nav bar nunchi manaki entha gap kavalo indhulo ivvachu*/
+    background-color: rgb(215, 211, 211);/*container lopala bg color anamaata*/
+    box-shadow: 0px 0px 25px #9985FB ;/*refer notes*/
+}
+.loading{
+    width: 20%;/*total page ki width isthundhi ante entha kavalante antha pettukovachu*/
+    background-color: rgb(233, 22, 22);
+    animation: loading 10s infinite;
+    
+
+}
+@keyframes loading{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+}
