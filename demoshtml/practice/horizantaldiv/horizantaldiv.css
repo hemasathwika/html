@@ -1,0 +1,21 @@
+.container{
+    width: 1000px;/*ee width screen ye size kavalo specify chesthudhi*/
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: rgb(246, 179, 91);
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: 0 8px 18px 0 #f4ad5c, 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation: container 10s infinite;
+} 
+.img-container{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 15px black;
+    margin-right: 50px;
+}
