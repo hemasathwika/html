@@ -1,0 +1,9 @@
+.container{
+    font-size: large;
+    border: 3px saddlebrown;
+    border-radius: 10px;
+    padding-left: 29px; 
+    margin: 20pc solidred;
+    width: auto;
+    background-color: rgb(158, 158, 236);
+}

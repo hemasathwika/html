@@ -3,7 +3,7 @@
 /*container ki mundhu div rayachu ayyaka kuda div ki styles raskovachu*/
 div{ /*ee div container tharvatha rasthe baaga artham avthundhi learners ki*/
     height: 25px;/*box yokka height*/
-    border-radius: 26px; /*box corners lo manaki curve raanii idhi use cheyaali*/
+    border-radius: 26px; /*box corners lo manaki curve raaniki idhi use cheyaali*/
 }
 .container{
     border:3px solid#9985FB;/*first border isthe manaki output lo some box vasthundhi dhanni manam style cheskovali*/

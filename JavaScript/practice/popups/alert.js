@@ -1,0 +1,1 @@
+//there are 3 types of popups 1. alert 2.confirm 3.prompt
