@@ -218,3 +218,7 @@ let y = 20
     //const sum = arrowSum(10, 10)
     //console.log(sum)
   
+//TOPIC-> SCOPE
+
+//3 types: block,function and global
+
