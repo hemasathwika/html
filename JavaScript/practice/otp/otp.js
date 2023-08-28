@@ -31,4 +31,8 @@ OTPinputs.forEach((input) => {
             }
         }
     })
+
 });
+
+var res = prompt('age')
+console.log('response')
