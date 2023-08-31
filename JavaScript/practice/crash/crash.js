@@ -222,3 +222,22 @@ let y = 20
 
 //3 types: block,function and global
 
+
+
+
+
+
+//JavaScript Events
+
+//1.mouse events:
+//click,double click , mouseover, mouseout, mouse move
+
+//2.keyboard events:
+//keydown, keyup, keypress
+
+//3.focus events:
+//focus, blur, focus in, focus out
+
+//4.form events:
+//submit, reset, change
+
