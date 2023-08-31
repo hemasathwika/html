@@ -2,7 +2,7 @@
 //import './App.css';
 import Greeting from './components/Greeting';
 import Calculator from './components/Calculator';
-import Shop from './components/Shop';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     <>
     <Greeting/>
     <Calculator/>
-    <Shop/>
+    <Products/>
     </>
     
     
