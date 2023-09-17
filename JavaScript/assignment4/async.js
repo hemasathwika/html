@@ -1,8 +1,8 @@
-// async function getData() {
-//     return "hh";
-// }
-// const data = getData();
-// console.log(data);
+async function getData() {
+    return "hh";
+}
+const data = getData();
+console.log(data);
 
 async function performTasks(){
     try {

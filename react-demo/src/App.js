@@ -1,7 +1,7 @@
 //  import logo from './logo.svg';
 import './App.css';
- import Greeting from './components/Greeting';
-// import Calculator from './components/Calculator';
+//  import Greeting from './components/Greeting';
+// import Calculator  from './components/Calculator';
 // import Add from './components/Add';
 // import Sub from './components/Sub';
 // import Keypad from './components/Keypad';
@@ -10,17 +10,11 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Header from './components/Header';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Goals from './components/Goals';
 import EmployeeList  from './components/Employees/EmployeeList';
 import {   Route, Routes } from 'react-router-dom';
-
-
-
-
-
-
-
+import Emailinput from './components/Emailinput';
 function App() {
 
 
@@ -33,18 +27,21 @@ function App() {
   <Add/>
  <Sub/>   */}
  {/* <About/> */}
- <Goals/>
- <EmployeeList/>
+ {/* <Goals/> */}
+ {/* <EmployeeList/> */}
  <Header/>
+ <Navbar/>
  
  <Routes>
  
   
- <Route exact path="/" element={<Greeting/>} />
- <Route exact path="/home" element={<Home/>} />
+ {/* <Route exact path="/" element={<Greeting/>} /> */}
+ <Route exact path="/" element={<Home/>} />
  <Route exact path="/about" element={<About/>} />
  <Route exact path="/contact" element={<Contact/>} />
- <Route exact path="/login" element={<Login/>} /> 
+ {/* <Route exact path="/emailinput" element={<Emailinput/>}/> */}
+ {/* <Route exact path="/login" element={<Login/>} />  */}
+  {/* <Route exact path="/calculator"  element={<Calculator/>} />  */}
  
  </Routes>
  

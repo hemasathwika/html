@@ -1,59 +1,6 @@
-// import React from 'react'
-
-
-// const Login=()=>{
-
-//     return (
-//         <div>
-//            <h1>k</h1>
-           
-            
-//         </div>
-//     )
-
-
-// }
-// export default Login
-
-
-// export default function EmailInput() {
-
-//     let errorMessage = '';
-  
-//     function evaluateEmail(event) {
-//       console.log('Hello')
-//       const enteredEmail = event.target.value;
-  
-//       if (enteredEmail.trim() === '' || !enteredEmail.includes('@')) {
-  
-//         errorMessage = 'The entered email address is invalid.';
-//         console.log(errorMessage)
-//       } else {
-  
-//         errorMessage = '';
-//        console.log('email has @')
-//       }
-  
-//     };
-  
-//     return (
-  
-//       <div>
-  
-//         <input placeholder="Your email" type="email" onBlur={evaluateEmail} />
-  
-//         <p>{errorMessage}</p>
-  
-//       </div>
-  
-//     );
-  
-//   };
-
-
 import React, { useState } from 'react';
 
-function Login() {
+function Emailinput() {
   const [email, setEmail] = useState('');
   const [verificationCode, setVerificationCode] = useState('');
   const [isVerified, setIsVerified] = useState(false);
@@ -98,4 +45,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Emailinput;
