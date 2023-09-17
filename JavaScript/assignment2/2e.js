@@ -11,3 +11,8 @@ function filter1(arr) {
 }
 
 console.log(filter1(arr));
+async function getData() {
+  return "hh";
+}
+const data = getData();
+console.log(data);

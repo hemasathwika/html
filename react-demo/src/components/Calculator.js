@@ -1,37 +1,125 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
+import './Calculator.css';
+
 
 function Calculator() {
-  const [result, setResult] = useState('');
+  let [input, setInput] = useState("")
+  function handleClick(value) {
 
-  const handleClick = (e) => {
-    setResult(result.concat(e.target.name));
+        setInput(input + value)
+
   }
+  function calculate(value) {
 
-  const calculate = () => {
-    try {
-      setResult(eval(result).toString());
-    } catch (error) {
-      setResult('Error');
-    }
+        let outputVal = eval(input)
+        setInput(outputVal)
+
   }
+  function handleClear() {
 
-  const clear = () => {
-    setResult('');
+        setInput("")
+
   }
-
-  return (
-    <div className="calculator">
-      <input type="text" value={result} />
-      <div className="buttons">
-        <button name="1" onClick={handleClick}>1</button>
-        <button name="2" onClick={handleClick}>2</button>
-        <button name="3" onClick={handleClick}>3</button>
-        {/* Rest of the buttons */}
-      </div>
-      <button className="equal" onClick={calculate}>=</button>
-      <button className="clear" onClick={clear}>Clear</button>
+return(
+  <div className='container'>
+    <h1>calci</h1>
+    <div className='calci'>
+      <input type='text' className='output'></input>
     </div>
-  );
-}
+    <div className='keypad'>
+    <div className="row">
+              <p>  <button onClick={
+                    () => {
+                        handleClick("7")
+                    }
+                } className="digit">7</button>
+                <button className="digit" onClick={
+                    () => {
+                        handleClick("8")
+                    }
+                }>8</button>
+                <button className="digit" onClick={
+                    () => {
+                        handleClick("9")
+                    }
+                }>9</button>
+                <button className="operator" onClick={
+                    () => {
+                        handleClick("/")
+                    }
+                }>/</button></p>
 
+            </div>
+            <div className="row">
+               <p> <button className="digit" onClick={
+                    () => {
+                        handleClick("4")
+                    }
+                }>4</button>
+                <button className="digit" onClick={
+                    () => {
+                        handleClick("5")
+                    }
+                }>5</button>
+                <button className="digit" onClick={
+                    () => { handleClick("6") }
+                }>6</button>
+                <button className="operator" onClick={
+                    () => {
+                        handleClick("*")
+                    }
+                }>*</button></p>
+
+            </div>
+            <div className="row">
+               <p> <button className="digit" onClick={
+                    () => {
+                        handleClick("1")
+                    }
+                }>1</button>
+                <button className="digit" onClick={
+                    () => {
+                        handleClick("2")
+                    }
+                }>2</button>
+                <button className="digit" onClick={
+                    () => {
+                        handleClick("3")
+                    }
+                }>3</button>
+                <button className="operator" onClick={
+                    () => {
+                        handleClick("-")
+                    }
+                }>-</button></p>
+
+            </div>
+            <div className="row">
+               <p> <button className="digit" onClick={
+                    () => {
+                        handleClick("0")
+                    }
+                }>0</button>
+                <button className="fun-keys" onClick={() => {
+                    calculate()
+                }
+                }>=</button>
+                <button className="fun-keys" onClick={() => {
+                    handleClear()
+                }
+                }>C</button>
+                <button className="operator" onClick={
+                    () => {
+                        handleClick("+")
+                    }
+                }>+</button></p>
+
+            </div>
+         </div>
+  </div>
+);
+
+};
 export default Calculator;
+
+

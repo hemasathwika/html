@@ -1,0 +1,19 @@
+.keypad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: row;
+
+}
+button{
+    width: 80px;
+    height: 90px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid#666;
+    border-right: 1px solid#666;
+    flex-direction: column;
+    float: left;
+}

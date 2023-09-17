@@ -3,15 +3,6 @@ header{
     width: 700px;
     font-size: 17px;
 }
-/* aside{
-    font-size: 20px;
-    border: 2px solid black;
-    
-} */
-/* div{
-   font-size: 20px;
-  border:2px solid black;
-} */
 
 
  .float-container {
@@ -20,13 +11,13 @@ header{
     float: right;
     
  }
-  /*
+  
  .float-child {
     width: 50%;
     float: right;
     padding: 20px;
     border: 2px solid red;
- }*/
+ }
 
     .main-header {
        border: 1px solid plum;
@@ -45,19 +36,6 @@ header{
       width: 37.44%;
    }
 
-  
-  /* Clearfix (clear floats) */
-
-   /*.row::after {
-       clear: both;
-       display: table;/*
-       
-  } /*
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-   }*/
 
    .row{
       margin: 0px;
@@ -67,11 +45,11 @@ header{
    }
    h1{
       text-align:center;
-      background-color: beige;
+      background-color: rgb(164, 232, 227);
    }
     .two{
-      background-image:url(../img/gymnastics-nawpic.webp);
-      height: 600px;
+      background-image:url(/demoshtml/assignment4/gym.jpeg);
+      height: 50pc;
       
 
     }
