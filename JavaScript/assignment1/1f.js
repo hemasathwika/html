@@ -17,3 +17,6 @@ console.log('Username in Uppercase: ' + uppercaseUsername);
 console.log('Address: ' + address);
 console.log('Length of Address: ' + addressLength);
 console.log('Address in Uppercase: ' + uppercaseAddress);
+
+
+

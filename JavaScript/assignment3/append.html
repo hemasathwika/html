@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>append</title>
+    <style>
+        ul{
+            padding: 2px;
+            border: 2px solid salmon;
+        }
+    </style>
 </head>
 <body>
     <h1>The Element Object</h1>
@@ -16,13 +22,15 @@
     <p>Click "Append" to append an item to the end of the list:</p>
 
 <button onclick="myFunction()">Append</button>
-<script>function myFunction() {
+<script>
+function myFunction() {
 
     // Create an "li" node:
     const node = document.createElement("li");
     
     // Create a text node:
     const textnode = document.createTextNode("Water");
+    
     
     // Append the text node to the "li" node:
     node.appendChild(textnode);
