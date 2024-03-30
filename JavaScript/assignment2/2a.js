@@ -1,4 +1,6 @@
 //JavaScript Program To Find Average of 3 Numbers
+
+
 function calculateAverage(num1, num2, num3) {
     return (num1 + num2 + num3) / 3;
   }
