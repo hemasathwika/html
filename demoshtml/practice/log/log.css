@@ -1,0 +1,95 @@
+body{
+    background: url(tree.jpg) no-repeat;
+    /* background-size: 250pc; */
+    justify-content: right;
+    align-items: right;
+    /* padding: 250px 80px; */
+    padding-left: 1000px;
+    /* display: flex; */
+}
+.wrapper{
+    background: rgb(15, 65, 107);
+    width: 20pc;
+    height: 20pc;
+    padding: 90px 40px;
+    justify-content: right;
+    align-items: center;
+    min-height: 40vh;
+    border-radius:7px ;
+    cursor: pointer;
+    box-shadow: 1px 1000px solid rgb(208, 2, 2);
+    
+}
+.wrapper h1{
+    text-align: center;
+    background: rgb(248, 247, 250);
+    width: 200pt;
+    align-items: center;
+    color: chocolate;
+    border-radius: 2pc;
+    
+}
+.wrapper .input-box{
+    margin: 20pt;
+    width: 100pc;
+    height: 1pc;
+    position: relative;
+
+}
+.input-box input{
+    width: 150pt;
+    height: 5pt;
+    border: none;
+    outline: none;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid whitesmoke;
+    text-align:center;
+    font-size: 16px;
+    color: azure;
+    padding:20px 20px 20px 20px ;
+    background: transparent;
+    
+    
+    
+}
+.input-box input::placeholder{
+    color: whitesmoke;
+}
+.wrapper .btn{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10pt 10pt ;
+    width: 200pt;
+    height: 50pt;
+    margin: 10pt;
+    border-radius: 7px ;
+    background: chocolate;
+    font-size: 1.5pc;
+    cursor: pointer;
+}
+.wrapper .register-link{
+    color: whitesmoke;
+    font-size: 1.5pc;
+}
+.wrapper .register-link a{
+    color:whitesmoke;
+}
+.wrapper .sources{
+    color: whitesmoke;
+    font-size: 1.5pc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sources i{
+    position: relative;
+    size: 40pc;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    
+}
+.sources p i:hover{
+    text-decoration:solid;
+}
