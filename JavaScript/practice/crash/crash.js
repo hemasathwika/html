@@ -16,8 +16,8 @@
 //in 2 ways we can declare variables 
 //1st way
 
-//let age = 22
-//console.log(age)
+// let age = 22
+// console.log(age)
 
 //2nd way
 
@@ -45,7 +45,7 @@
 //1.string  2.number    3.boolean   4.undefined
 //5.null    6.bigint    7.symbol
 
-//non primitive is comprised of only 1 type
+//non primitive is comprised of only 1 type also called as reference data types
 //1.object
 
 //EXAMPLES

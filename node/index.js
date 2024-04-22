@@ -1,10 +1,14 @@
-import express from 'express'
+ import express from 'express'
 import mongoose from 'mongoose'
 const app = express()
+// const {MongoClient} = require("mangodb")
 
 
+mongoose.connect('mongodb://localhost:27017').then(
+    ()=>console.log('con')
+)
 
-mongoose.connect('mongodb://localhost:27017')
+// mongoose.connect('mongodb://localhost:27017')
 const UserSchema = mongoose.Schema({
     name: String,
     age: Number
@@ -12,6 +16,8 @@ const UserSchema = mongoose.Schema({
 const UserModel = mongoose.model('users',UserSchema)
 
 app.get('/getusers',(req,res)=>{
+
+   
 
 UserModel.find({}).then(function(users){
 res.json(users)

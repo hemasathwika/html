@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Fuggles&family=Pacifico&display=swap')
+;
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.navbar-left{
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    
+}
+.navbar-right{
+    align-items: center;
+    padding-top: 40px;
+    font-size: 25px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+
+    
+}
+a{
+    border: none;
+    margin: 10px;
+}
+a:hover{
+    color: rgb(218, 78, 123);
+}
+
+.home{
+    background: url(/demoshtml/practice/foodie/images/home2.jpeg) no-repeat;
+    background-size: 2400px;
+    height: 50vh;
+    color: whitesmoke;
+    justify-content: center;
+    padding: 300px ;
+    background-image: cover;    
+}
+.p1{
+   letter-spacing: 5PX;
+   font-size: 18px;
+   font-weight: 100;
+   padding-top: 50px;
+   
+}
+h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+.p3{
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.menu{
+    width: 2300px;/*ee width screen ye size kavalo specify chesthudhi*/
+    height: 5000px;
+    background-color: black;
+}
+.p4{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    align-items: center;
+    padding-left: 600px;
+    background-color: black;
+
+}
+.scroll-bar::-webkit-scrollbar{
+    display: none;
+}
+.scroll-bar{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: whitesmoke;
+   
+}
+.container{
+    color: whitesmoke;
+    
+}
+span{
+    align-items: center;
+    padding-top: 40px;
+    font-size: 25px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 230px;
+    margin-right: 50px;
+
+}
